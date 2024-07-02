@@ -47,7 +47,7 @@ CrimeReportSystem
 - clearScreen()
 ```
 
-Implementation Details:
+<h3>Implementation Details:</h3>
 Classes and Methods:
 CrimeReportSystem Class
 Data Members:
