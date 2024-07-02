@@ -22,23 +22,30 @@ The project employs basic OOP principles but doesn't explicitly use advanced des
 Encapsulation: The data members of the CrimeReportSystem class are private and are accessed or modified through public member functions.
 Inheritance: The design suggests the potential for a base class Crime with derived classes like Snatching, Robbery, and Harassment, but the current implementation has not detailed this.
 Polymorphism: This principle can be seen in the method calls where the same function is used to handle different types of crimes and generate statistical reports.
-Class Diagram:
-Here’s a simple UML class diagram to visualize the design:
+<h3>Class Diagram:</h3>
+<p>Here’s a simple UML class diagram to visualize the design:</p>
 
-
+```
 CrimeReportSystem
+```
+<hr>
 
+```
 - areas
 - crimeType
 - crimeData
 - typeData
+```
+<hr>
 
+```
 + reportCrime()
 + showDetails()
 - getTimeInterval()
 - pause()
 - beepstring()
 - clearScreen()
+```
 
 Implementation Details:
 Classes and Methods:

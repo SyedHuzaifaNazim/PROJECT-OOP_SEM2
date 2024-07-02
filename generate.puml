@@ -1,0 +1,13 @@
+CrimeReportSystem
+plantuml:
+  - areas
+  - crimeType
+  - crimeData
+  - typeData
+
+  + reportCrime()
+  + showDetails()
+  - getTimeInterval()
+  - pause()
+  - beepstring()
+  - clearScreen()
