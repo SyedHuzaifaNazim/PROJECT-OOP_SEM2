@@ -76,7 +76,7 @@ Code Snippets:
 Here are some interesting parts of the code:
 
 reportCrime() Method :
-```
+```cpp
 void reportCrime()
 {
     clearScreen();
@@ -120,7 +120,7 @@ void reportCrime()
 }
 ```
 showDetails() Method:
-```
+```cpp
 void showDetails()
 {
     int areaChoice;
