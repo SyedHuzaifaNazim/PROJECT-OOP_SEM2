@@ -1,10 +1,5 @@
 <h1 class ="head_main">CRIME MONITORING SYSTEM</h1>
-<style>
-    .head_main{
-        text-align: center;
-        font-family: "san-serif";
-    }
- </style>
+
 <h2>Abstract: </h2>
 	<p>Our project aims to develop a Crime Monitoring System using Object-Oriented Programming (OOP) principles in C++. The system will utilize the core pillars of OOP, namely encapsulation, inheritance, and polymorphism, to create a robust and scalable solution for tracking and analyzing crime rates in different areas. The base class, "Crime," will serve as the foundation, with derived classes such as "Snatching," "Robbery," and "Harassment" inheriting properties and behaviors from the parent class. Encapsulation will ensure data security and modularity, allowing for easy maintenance and expansion of the system. Polymorphism will enable flexibility in handling various types of crimes and generating statistical reports. Through this project, we aim to demonstrate the effectiveness of OOP principles in real-world applications, particularly in the domain of crime monitoring.</p>
 <h3>GitHub Link: If you want to check code then: <a href="https://github.com/SyedHuzaifaNazim/PROJECT-OOP_SEM2">Click Here</a></h3>
