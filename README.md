@@ -17,7 +17,7 @@ CrimeReportSystem: This class is the core of the system, responsible for managin
 <h6>crimeTypes:</h6> <p>A vector to store different types of crimes <i>(e.g., Robbery, Snatching, Harassment)</i>.</p>
 <h6>crimeData:</h6> <p>A map to store the count of each type of crime in each area.</p>
 <h6>timeData:</h6> <p>To store the count of crimes occurring in different time intervals.</p>
-Design Patterns:
+<h5>Design Patterns:</h5>
 The project employs basic OOP principles but doesn't explicitly use advanced design patterns like MVC, Singleton, or Factory. However, the following principles are implemented:>
 Encapsulation: The data members of the CrimeReportSystem class are private and are accessed or modified through public member functions.
 Inheritance: The design suggests the potential for a base class Crime with derived classes like Snatching, Robbery, and Harassment, but the current implementation has not detailed this.
