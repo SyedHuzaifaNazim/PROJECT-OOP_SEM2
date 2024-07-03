@@ -48,9 +48,9 @@ CrimeReportSystem
 ```
 
 <h3>Implementation Details:</h3>
-Classes and Methods:
+<h4>Classes and Methods:</h4>
 CrimeReportSystem Class
-Data Members:
+<h5>Data Members:</h5>
 areas: Stores different areas.
 crimeTypes: Stores different types of crimes.
 crimeData: Stores the count of each type of crime in each area.
