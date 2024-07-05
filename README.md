@@ -22,7 +22,7 @@ CrimeReportSystem: This class is the core of the system, responsible for managin
 <h6>Encapsulation:</h6> <p>The data members of the CrimeReportSystem class are private and are accessed or modified through public member functions.</p>
 <h6>Inheritance:</h6> <p>The design suggests the potential for a base class Crime with derived classes like <i>Snatching, Robbery, and Harassment,</i> but the current implementation has not detailed this.</p>
 Polymorphism: This principle can be seen in the method calls where the same function is used to handle different types of crimes and generate statistical reports.
-f
+<h2>Output : </h2>
 <img align="center" alt="coding" width="100%" src="./Scrshots/Screenshot 2024-07-05 111205.png"/>
 <hr>
 <img align="center" alt="coding" width="100%" src="./Scrshots/Screenshot 2024-07-05 111438.png"/>
