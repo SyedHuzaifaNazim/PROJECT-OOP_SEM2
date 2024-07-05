@@ -18,34 +18,15 @@ CrimeReportSystem: This class is the core of the system, responsible for managin
 <h6>crimeData:</h6> <p>A map to store the count of each type of crime in each area.</p>
 <h6>timeData:</h6> <p>To store the count of crimes occurring in different time intervals.</p>
 <h5>Design Patterns:</h5>
-The project employs basic OOP principles but doesn't explicitly use advanced design patterns like MVC, Singleton, or Factory. However, the following principles are implemented:>
-Encapsulation: The data members of the CrimeReportSystem class are private and are accessed or modified through public member functions.
-Inheritance: The design suggests the potential for a base class Crime with derived classes like Snatching, Robbery, and Harassment, but the current implementation has not detailed this.
+<p>The project employs basic OOP principles but doesn't explicitly use advanced design patterns like MVC, Singleton, or Factory. However, the following principles are implemented:</p>
+<h6>Encapsulation:</h6> <p>The data members of the CrimeReportSystem class are private and are accessed or modified through public member functions.</p>
+<h6>Inheritance:</h6> <p>The design suggests the potential for a base class Crime with derived classes like <i>Snatching, Robbery, and Harassment,</i> but the current implementation has not detailed this.</p>
 Polymorphism: This principle can be seen in the method calls where the same function is used to handle different types of crimes and generate statistical reports.
-<h3>Class Diagram:</h3>
-<p>Here’s a simple UML class diagram to visualize the design:</p>
-
-```
-CrimeReportSystem
-```
+f
+<img align="center" alt="coding" width="100%" src="./Scrshots/Screenshot 2024-07-05 111205.png"/>
 <hr>
+<img align="center" alt="coding" width="100%" src="./Scrshots/Screenshot 2024-07-05 111438.png"/>
 
-```
-- areas
-- crimeType
-- crimeData
-- typeData
-```
-<hr>
-
-```
-+ reportCrime()
-+ showDetails()
-- getTimeInterval()
-- pause()
-- beepstring()
-- clearScreen()
-```
 
 <h3>Implementation Details:</h3>
 <h4>Classes and Methods:</h4>
